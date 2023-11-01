@@ -1,0 +1,123 @@
+repo_name: EmmanuStack/stack-fe-test
+report_id: 3eaef4a84f222870114224e92176de08
+repo_type: Public
+timestamp: '2023-11-01T12:02:25+00:00'
+requested_by: 
+provider: github
+branch: main
+detected_tools_count: 10
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source:
+  - package.json
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  imageURL: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: yarn.lock
+  detection_source:
+  - package.json
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  imageURL: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: yarn.lock
+  detection_source:
+  - package.json
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  imageURL: https://img.stackshare.io/service/1046/git.png
+  detection_source:
+  - Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  imageURL: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source:
+  - yarn.lock
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  imageURL: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source:
+  - package.json
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.20
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  imageURL: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: yarn.lock
+  detection_source:
+  - package.json
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  imageURL: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: yarn.lock
+  detection_source:
+  - package.json
+- name: NPM Trends
+  website_url: https://www.npmtrends.com/
+  open_source: false
+  hosted_saas: false
+  imageURL: https://img.stackshare.io/service/12294/empty-logo-square.png
+  detection_source:
+  - package.json
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.26.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  imageURL: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: package.json
+  detection_source:
+  - package.json
