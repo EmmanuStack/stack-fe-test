@@ -1,11 +1,11 @@
 repo_name: EmmanuStack/stack-fe-test
-report_id: 51b984bc6174826f42fe0fa0d75e59d9
+report_id: 6677d8937bd1b861a4b22a68f30f5df2
 repo_type: Public
-timestamp: '2023-11-01T21:37:14+00:00'
+timestamp: '2023-11-05T17:20:03+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
-detected_tools_count: 10
+detected_tools_count: 11
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -101,13 +101,6 @@ tools:
   detection_source_url: yarn.lock
   detection_source:
   - package.json
-- name: NPM Trends
-  website_url: https://www.npmtrends.com/
-  open_source: false
-  hosted_saas: false
-  imageURL: https://img.stackshare.io/service/12294/empty-logo-square.png
-  detection_source:
-  - package.json
 - name: axios
   description: Promise based HTTP client for the browser and node.js
   website_url: https://github.com/mzabriskie/axios
@@ -119,5 +112,38 @@ tools:
   sub_category: Javascript Utilities & Libraries
   imageURL: https://img.stackshare.io/no-img-open-source.png
   detection_source_url: package.json
+  detection_source:
+  - package.json
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  imageURL: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: yarn.lock
+  detection_source:
+  - package.json
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  imageURL: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: yarn.lock
   detection_source:
   - package.json
