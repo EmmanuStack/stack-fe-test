@@ -1,9 +1,38 @@
+<!--
+--- Readme.md Snippet without images Start ---
+## Tech Stack
+EmmanuStack/stack-fe-test is built on the following main stack:
+- [React](https://reactjs.org/) – Javascript UI Libraries
+- [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- [Yarn](https://yarnpkg.com/) – Front End Package Manager
+
+Full tech stack [here](/tech.md)
+--- Readme.md Snippet without images End ---
+
+--- Readme.md Snippet with images Start ---
+## Tech Stack
+EmmanuStack/stack-fe-test is built on the following main stack:
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1163/hashtag.png' alt='ExpressJS'/> [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
+
+Full tech stack [here](/tech.md)
+--- Readme.md Snippet with images End ---
+-->
 <div align="center">
 
 # Stack Report
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/stack-fe-test](https://github.com/EmmanuStack/stack-fe-test)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|10<br/>Tools used|1<br/>Contributors|11/01/23 <br/>Report generated|06/13/23<br/>Last commit date|
+|11<br/>Tools used|1<br/>Contributors|11/05/23 <br/>Report generated|06/13/23<br/>Last commit date|
 |------|------|------|------|
 </div>
 
@@ -70,7 +99,7 @@
 </tr>
 </table>
 
-## Other (4)
+## Other (3)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'>
@@ -89,14 +118,6 @@
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/12294/empty-logo-square.png' alt='NPM Trends'>
-  <br>
-  <sub><a href="https://www.npmtrends.com/">NPM Trends</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'>
   <br>
   <sub><a href="https://github.com/mzabriskie/axios">axios</a></sub>
@@ -106,6 +127,16 @@
 
 </tr>
 </table>
+
+
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (2)</h2>
+
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (2)
+
+|NAME|VERSION|SOURCE FILE|License|Vulnerabilities|
+|------|------|------|------|------|
+|[express](http://expressjs.com/)|v4.17.1|[yarn.lock](https://github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock)|MIT|[qs vulnerable to ...](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (Dec 7) (high) (4.17.3)|
+|[moment](http://momentjs.com)|v2.29.4|[yarn.lock](https://github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock)|MIT|N/A|
 
 <br/>
 <div align='center'>
