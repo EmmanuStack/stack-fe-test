@@ -1,7 +1,7 @@
 repo_name: EmmanuStack/stack-fe-test
-report_id: 67a507abbe57a341158c0e5a149045ba
+report_id: dc1962ea96e63d3020b8d57fd1ae15e3
 repo_type: Public
-timestamp: '2023-11-06T03:56:40+00:00'
+timestamp: '2023-11-06T14:26:07+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
@@ -16,8 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
-  detection_source:
-  - package.json
+  detection_source: package.json
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
     fast, flexible, and simple
@@ -30,8 +29,7 @@ tools:
   sub_category: Microframeworks (Backend)
   imageURL: https://img.stackshare.io/service/1163/hashtag.png
   detection_source_url: yarn.lock
-  detection_source:
-  - package.json
+  detection_source: package.json
 - name: React
   description: A JavaScript library for building user interfaces
   website_url: https://reactjs.org/
@@ -43,8 +41,7 @@ tools:
   sub_category: Javascript UI Libraries
   imageURL: https://img.stackshare.io/service/1020/OYIaJ1KK.png
   detection_source_url: yarn.lock
-  detection_source:
-  - package.json
+  detection_source: package.json
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -53,8 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   imageURL: https://img.stackshare.io/service/1046/git.png
-  detection_source:
-  - Repo Metadata
+  detection_source: Repo Metadata
 - name: Yarn
   description: A new package manager for JavaScript
   website_url: https://yarnpkg.com/
@@ -63,8 +59,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   imageURL: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source:
-  - yarn.lock
+  detection_source: yarn.lock
 - name: npm
   description: The package manager for JavaScript.
   website_url: https://www.npmjs.com/
@@ -73,8 +68,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   imageURL: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source:
-  - package.json
+  detection_source: package.json
 - name: Lodash
   description: A JavaScript utility library
   website_url: https://lodash.com
@@ -85,8 +79,7 @@ tools:
   sub_category: Javascript Utilities & Libraries
   imageURL: https://img.stackshare.io/service/2438/lodash.png
   detection_source_url: yarn.lock
-  detection_source:
-  - package.json
+  detection_source: package.json
 - name: Moment.js
   description: A JavaScript date library for parsing, validating, manipulating, and
     formatting dates
@@ -99,8 +92,7 @@ tools:
   sub_category: Javascript Utilities & Libraries
   imageURL: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
   detection_source_url: yarn.lock
-  detection_source:
-  - package.json
+  detection_source: package.json
 - name: axios
   description: Promise based HTTP client for the browser and node.js
   website_url: https://github.com/mzabriskie/axios
@@ -112,8 +104,7 @@ tools:
   sub_category: Javascript Utilities & Libraries
   imageURL: https://img.stackshare.io/no-img-open-source.png
   detection_source_url: package.json
-  detection_source:
-  - package.json
+  detection_source: package.json
 - name: express
   description: Fast, unopinionated, minimalist web framework
   package_url: https://www.npmjs.com/express
@@ -125,8 +116,7 @@ tools:
   sub_category: npm Packages
   imageURL: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
   detection_source_url: yarn.lock
-  detection_source:
-  - package.json
+  detection_source: package.json
   vulnerabilities:
   - name: qs vulnerable to Prototype Pollution
     cve_id: CVE-2022-24999
@@ -145,5 +135,4 @@ tools:
   sub_category: npm Packages
   imageURL: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
   detection_source_url: yarn.lock
-  detection_source:
-  - package.json
+  detection_source: package.json
