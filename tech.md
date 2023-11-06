@@ -32,7 +32,7 @@ Full tech stack [here](/tech.md)
 # Stack Report
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/stack-fe-test](https://github.com/EmmanuStack/stack-fe-test)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|11<br/>Tools used|1<br/>Contributors|11/05/23 <br/>Report generated|06/13/23<br/>Last commit date|
+|11<br/>Tools used|1<br/>Contributors|11/06/23 <br/>Report generated|06/13/23<br/>Last commit date|
 |------|------|------|------|
 </div>
 
