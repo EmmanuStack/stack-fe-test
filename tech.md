@@ -133,10 +133,10 @@ Full tech stack [here](/tech.md)
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (2)
 
-|NAME|VERSION|SOURCE FILE|License|Vulnerabilities|
-|------|------|------|------|------|
-|[express](http://expressjs.com/)|v4.17.1|[yarn.lock](https://github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock)|MIT|[qs vulnerable to ...](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (Dec 7) (high) (4.17.3)|
-|[moment](http://momentjs.com)|v2.29.4|[yarn.lock](https://github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock)|MIT|N/A|
+|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
+|:------|:------|:------|:------|:------|:------|
+|[express](http://expressjs.com/)|v4.17.1|N/A|N/A |MIT|[CVE-2022-24999](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (High)|
+|[moment](http://momentjs.com)|v2.29.4|N/A|N/A |MIT|N/A|
 
 <br/>
 <div align='center'>
