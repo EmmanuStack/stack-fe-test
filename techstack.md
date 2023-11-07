@@ -32,7 +32,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/stack-fe-test](https://github.com/EmmanuStack/stack-fe-test)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|12<br/>Tools used|1<br/>Contributors|11/07/23 <br/>Report generated|06/13/23<br/>Last commit date|
+|11<br/>Tools used|1<br/>Contributors|11/07/23 <br/>Report generated|06/13/23<br/>Last commit date|
 |------|------|------|------|
 </div>
 
@@ -99,7 +99,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## Other (4)
+## Other (3)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'>
@@ -115,14 +115,6 @@ Full tech stack [here](/techstack.md)
   <sub><a href="http://momentjs.com/">Moment.js</a></sub>
   <br>
   <sub>v2.29.4</sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/12294/empty-logo-square.png' alt='NPM Trends'>
-  <br>
-  <sub><a href="https://www.npmtrends.com/">NPM Trends</a></sub>
-  <br>
-  <sub></sub>
 </td>
 
 <td align='center'>
