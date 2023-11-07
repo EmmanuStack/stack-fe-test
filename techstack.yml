@@ -1,11 +1,11 @@
 repo_name: EmmanuStack/stack-fe-test
-report_id: 7f2c0fb444e1075c993e1066258d52d3
+report_id: c75152a94270f3e14a41afa8fa962ebd
 repo_type: Public
-timestamp: '2023-11-07T20:13:56+00:00'
+timestamp: '2023-11-07T20:20:10+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
-detected_tools_count: 12
+detected_tools_count: 11
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -92,12 +92,6 @@ tools:
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
   detection_source_url: yarn.lock
-  detection_source: package.json
-- name: NPM Trends
-  website_url: https://www.npmtrends.com/
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
   detection_source: package.json
 - name: axios
   description: Promise based HTTP client for the browser and node.js
