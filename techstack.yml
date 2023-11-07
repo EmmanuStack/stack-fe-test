@@ -1,11 +1,11 @@
 repo_name: EmmanuStack/stack-fe-test
-report_id: e0616bcf2cf95fb3fcffbfae7f243414
+report_id: 3e42ac8c36ad4d1c82a5e9ca956d023b
 repo_type: Public
-timestamp: '2023-11-07T13:21:06+00:00'
+timestamp: '2023-11-07T17:58:38+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
-detected_tools_count: 11
+detected_tools_count: 10
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -15,7 +15,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
   detection_source: package.json
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
@@ -27,7 +27,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
-  imageURL: https://img.stackshare.io/service/1163/hashtag.png
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
   detection_source_url: yarn.lock
   detection_source: package.json
 - name: React
@@ -39,7 +39,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: Javascript UI Libraries
-  imageURL: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
   detection_source_url: yarn.lock
   detection_source: package.json
 - name: Git
@@ -49,7 +49,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Version Control System
-  imageURL: https://img.stackshare.io/service/1046/git.png
+  image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
 - name: Yarn
   description: A new package manager for JavaScript
@@ -58,7 +58,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
-  imageURL: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
   detection_source: yarn.lock
 - name: npm
   description: The package manager for JavaScript.
@@ -67,7 +67,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
-  imageURL: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
   detection_source: package.json
 - name: Lodash
   description: A JavaScript utility library
@@ -77,7 +77,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: Javascript Utilities & Libraries
-  imageURL: https://img.stackshare.io/service/2438/lodash.png
+  image_url: https://img.stackshare.io/service/2438/lodash.png
   detection_source_url: yarn.lock
   detection_source: package.json
 - name: Moment.js
@@ -90,8 +90,14 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: Javascript Utilities & Libraries
-  imageURL: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
   detection_source_url: yarn.lock
+  detection_source: package.json
+- name: NPM Trends
+  website_url: https://www.npmtrends.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
   detection_source: package.json
 - name: axios
   description: Promise based HTTP client for the browser and node.js
@@ -102,37 +108,6 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: Javascript Utilities & Libraries
-  imageURL: https://img.stackshare.io/no-img-open-source.png
+  image_url: https://img.stackshare.io/no-img-open-source.png
   detection_source_url: package.json
-  detection_source: package.json
-- name: express
-  description: Fast, unopinionated, minimalist web framework
-  package_url: https://www.npmjs.com/express
-  version: 4.17.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  imageURL: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
-  vulnerabilities:
-  - name: qs vulnerable to Prototype Pollution
-    cve_id: CVE-2022-24999
-    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
-    detected_date: Dec 7
-    severity: high
-    first_patched: 4.17.3
-- name: moment
-  description: Parse, validate, manipulate, and display dates
-  package_url: https://www.npmjs.com/moment
-  version: 2.29.4
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  imageURL: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: yarn.lock
   detection_source: package.json
