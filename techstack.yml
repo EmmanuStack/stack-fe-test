@@ -1,11 +1,11 @@
 repo_name: EmmanuStack/stack-fe-test
-report_id: 3e42ac8c36ad4d1c82a5e9ca956d023b
+report_id: ac16b7374923420778d7e947bd91768c
 repo_type: Public
-timestamp: '2023-11-07T17:58:38+00:00'
+timestamp: '2023-11-07T18:13:34+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
-detected_tools_count: 10
+detected_tools_count: 12
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -110,4 +110,35 @@ tools:
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
   detection_source_url: package.json
+  detection_source: package.json
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: yarn.lock
   detection_source: package.json
