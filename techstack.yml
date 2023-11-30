@@ -1,11 +1,11 @@
 repo_name: EmmanuStack/stack-fe-test
-report_id: 1d4189720b53a06427150d8c2c3131e7
+report_id: d006dcfc1a2690c20c1928c361583b89
 repo_type: Public
-timestamp: '2023-11-24T05:57:45+00:00'
+timestamp: '2023-11-30T17:05:13+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
-detected_tools_count: 11
+detected_tools_count: 12
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -17,8 +17,6 @@ tools:
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
   detection_source: package.json
-  last_updated_by: emmanu-yahoo
-  last_updated_on: 2023-06-13 17:22:09.000000000 Z
 - name: ExpressJS
   description: Sinatra inspired web development framework for node.js -- insanely
     fast, flexible, and simple
@@ -30,10 +28,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: yarn.lock
+  detection_source_url: github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock
   detection_source: package.json
-  last_updated_by: emmanu-yahoo
-  last_updated_on: 2023-06-13 19:33:50.000000000 Z
 - name: React
   description: A JavaScript library for building user interfaces
   website_url: https://reactjs.org/
@@ -44,10 +40,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: yarn.lock
+  detection_source_url: github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock
   detection_source: package.json
-  last_updated_by: emmanu-yahoo
-  last_updated_on: 2023-06-13 19:31:41.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -66,8 +60,6 @@ tools:
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
   detection_source: yarn.lock
-  last_updated_by: emmanu-yahoo
-  last_updated_on: 2023-06-12 12:04:56.000000000 Z
 - name: npm
   description: The package manager for JavaScript.
   website_url: https://www.npmjs.com/
@@ -77,8 +69,6 @@ tools:
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
   detection_source: package.json
-  last_updated_by: emmanu-yahoo
-  last_updated_on: 2023-06-12 12:03:55.000000000 Z
 - name: Lodash
   description: A JavaScript utility library
   website_url: https://lodash.com
@@ -88,10 +78,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: yarn.lock
+  detection_source_url: github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock
   detection_source: package.json
-  last_updated_by: emmanu-yahoo
-  last_updated_on: 2023-06-13 17:22:09.000000000 Z
 - name: Moment.js
   description: A JavaScript date library for parsing, validating, manipulating, and
     formatting dates
@@ -103,10 +91,14 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
-  detection_source_url: yarn.lock
+  detection_source_url: github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock
   detection_source: package.json
-  last_updated_by: emmanu-yahoo
-  last_updated_on: 2023-06-13 19:31:41.000000000 Z
+- name: NPM Trends
+  website_url: https://www.npmtrends.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
+  detection_source: package.json
 - name: axios
   description: Promise based HTTP client for the browser and node.js
   website_url: https://github.com/mzabriskie/axios
@@ -117,10 +109,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package.json
+  detection_source_url: github.com/EmmanuStack/stack-fe-test/blob/main/package.json
   detection_source: package.json
-  last_updated_by: emmanu-yahoo
-  last_updated_on: 2023-06-13 19:16:12.000000000 Z
 - name: express
   description: Fast, unopinionated, minimalist web framework
   package_url: https://www.npmjs.com/express
@@ -131,10 +121,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
+  detection_source_url: github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock
   detection_source: package.json
-  last_updated_by: emmanu-yahoo
-  last_updated_on: 2023-06-13 19:33:50.000000000 Z
   vulnerabilities:
   - name: qs vulnerable to Prototype Pollution
     cve_id: CVE-2022-24999
@@ -152,7 +140,5 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: yarn.lock
+  detection_source_url: github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock
   detection_source: package.json
-  last_updated_by: emmanu-yahoo
-  last_updated_on: 2023-06-13 19:31:41.000000000 Z
