@@ -1,11 +1,11 @@
 repo_name: EmmanuStack/stack-fe-test
-report_id: 592165a7f98588ba771917ddb0d8cd43
+report_id: cec6ad0aa4414333119e82e303eb69ee
 repo_type: Public
-timestamp: '2023-12-08T12:07:29+00:00'
+timestamp: '2023-12-08T22:04:42+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
-detected_tools_count: 12
+detected_tools_count: 11
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -107,14 +107,6 @@ tools:
   detection_source: package.json
   last_updated_by: emmanu-yahoo
   last_updated_on: 2023-06-13 19:31:41.000000000 Z
-- name: NPM Trends
-  website_url: https://www.npmtrends.com/
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
-  detection_source: package.json
-  last_updated_by: emmanu-yahoo
-  last_updated_on: 2023-06-12 12:03:55.000000000 Z
 - name: axios
   description: Promise based HTTP client for the browser and node.js
   website_url: https://github.com/mzabriskie/axios
