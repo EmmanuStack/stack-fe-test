@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/stack-fe-test](https://github.com/EmmanuStack/stack-fe-test)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|10<br/>Tools used|12/13/23 <br/>Report generated|
+|12<br/>Tools used|12/15/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -53,7 +53,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (1)
+## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (2)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1163/hashtag.png' alt='ExpressJS'>
@@ -61,6 +61,14 @@ Full tech stack [here](/techstack.md)
   <sub><a href="http://expressjs.com/">ExpressJS</a></sub>
   <br>
   <sub>v4.17.1</sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'>
+  <br>
+  <sub><a href="https://reactjs.org/">React</a></sub>
+  <br>
+  <sub>v16.8.4</sub>
 </td>
 
 </tr>
@@ -95,7 +103,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## Other (5)
+## Other (4)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'>
@@ -122,14 +130,6 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'>
-  <br>
-  <sub><a href="https://reactjs.org/">React</a></sub>
-  <br>
-  <sub>v16.8.4</sub>
-</td>
-
-<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'>
   <br>
   <sub><a href="https://github.com/mzabriskie/axios">axios</a></sub>
@@ -139,6 +139,16 @@ Full tech stack [here](/techstack.md)
 
 </tr>
 </table>
+
+
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (2)</h2>
+
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (2)
+
+|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
+|:------|:------|:------|:------|:------|:------|
+|[express](https://www.npmjs.com/express)|v4.17.1|06/13/23|emmanu-yahoo |MIT|[CVE-2022-24999](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (High)|
+|[moment](https://www.npmjs.com/moment)|v2.29.4|06/13/23|emmanu-yahoo |MIT|N/A|
 
 <br/>
 <div align='center'>
