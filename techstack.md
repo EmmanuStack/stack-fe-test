@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/stack-fe-test](https://github.com/EmmanuStack/stack-fe-test)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|12<br/>Tools used|03/05/24 <br/>Report generated|
+|12<br/>Tools used|03/06/24 <br/>Report generated|
 |------|------|
 </div>
 
