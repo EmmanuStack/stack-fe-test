@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [EmmanuStack/stack-fe-test](https://github.com/EmmanuStack/stack-fe-test)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|10<br/>Tools used|03/19/24 <br/>Report generated|
+|12<br/>Tools used|03/19/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -139,6 +139,16 @@ Full tech stack [here](/techstack.md)
 
 </tr>
 </table>
+
+
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (2)</h2>
+
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (2)
+
+|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
+|:------|:------|:------|:------|:------|:------|
+|[express](https://www.npmjs.com/express)|v4.17.1|06/13/23|emmanu-yahoo |MIT|[CVE-2022-24999](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (High)|
+|[moment](https://www.npmjs.com/moment)|v2.29.4|06/13/23|emmanu-yahoo |MIT|N/A|
 
 <br/>
 <div align='center'>
