@@ -1,12 +1,12 @@
 repo_name: EmmanuStack/stack-fe-test
-report_id: 5e7534cc428c08098664bf0fcbf18b19
+report_id: 959bb504b325c52613ed9fa7c495badd
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-19T14:36:36+00:00'
+timestamp: '2024-03-19T20:12:34+00:00'
 requested_by: emmanu-yahoo
 provider: github
 branch: main
-detected_tools_count: 10
+detected_tools_count: 12
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -135,3 +135,38 @@ tools:
   detection_source: package.json
   last_updated_by: emmanu-yahoo
   last_updated_on: 2023-06-13 19:16:12.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: emmanu-yahoo
+  last_updated_on: 2023-06-13 19:33:50.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/EmmanuStack/stack-fe-test/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: emmanu-yahoo
+  last_updated_on: 2023-06-13 19:31:41.000000000 Z
